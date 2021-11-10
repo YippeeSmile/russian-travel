@@ -1,0 +1,10 @@
+.description__title {
+    font-family: Inter;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 96px;
+    line-height: 100px;
+    margin: 136px 280px 32px 280px;
+    width: 720px;
+    text-align: center;
+}

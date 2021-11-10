@@ -1,0 +1,8 @@
+.gallery__items {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 284px);
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 16px;
+}
