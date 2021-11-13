@@ -1,0 +1,34 @@
+.description__title {
+    margin: 0 auto;
+    max-width: 720px;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 93px;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 1024px) {
+    .description__title {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description__title {
+        margin: 0;
+        padding: 0px 24px;
+        line-height: 92px;
+        font-size: 91px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .description__title {
+        max-width: 100%;
+        margin: 0 auto;
+        line-height: 38px;
+        font-size: 35px;
+    }
+}

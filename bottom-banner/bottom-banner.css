@@ -1,0 +1,39 @@
+.bottom-banner {
+    min-height: 740px;
+    background-image: url(../../images/__background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 92px 48px;
+    position: relative;
+}
+
+.bottom-banner:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(42, 44, 47, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .bottom-banner {
+        min-height: 6.25vh;
+        margin: 92px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bottom-banner {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .bottom-banner {
+        margin-bottom: 64px;
+        max-width: 100vw;
+        max-height: 48vh;
+    }
+}
