@@ -1,8 +1,6 @@
 .best-places__img {
     grid-area: img;
     width: 36vw;
-    height: 112vh;
-    padding-top: -30px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,6 +23,7 @@
     .best-places__img {
         grid-area: img;
         width: 100vw;
-        /* height: 89vh; */
+        height: 90vh;
+        padding-top: 33px;
     }
 }
