@@ -1,8 +1,31 @@
 .description__banner_image-name {
+    margin: 0;
     font-family: Inter;
     font-weight: 400px;
     font-style: normal;
-    font-size: 10px;
-    line-height: 14px;
+    font-size: 13px;
+    line-height: 20px;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+    .description__banner_image-name {
+        font-size: 13px;
+        line-height: 41px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description__banner_image-name {
+        padding-left: 24px;
+        margin-top: 8px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .description__banner_image-name {
+        padding-left: 16px;
+    }
 }

@@ -1,0 +1,48 @@
+.best-places__item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(36vw, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(45vh, 1fr));
+    grid-template-areas: "title url" "img paragraph_top" "img paragraph_bottom";
+    column-gap: 15px;
+    margin-bottom: 73px;
+    grid-auto-flow: row;
+}
+
+.best-places__item:nth-child(2) {
+    row-gap: 48px;
+}
+
+.best-places__item:nth-child(3) {
+    row-gap: -9px;
+}
+
+@media screen and (max-width: 1024px) {
+    .best-places__item {
+        grid-template-columns: 438px 1fr;
+        column-gap: 32px;
+        row-gap: 54px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .best-places__item {
+        grid-template-columns: repeat(auto-fit, minmax(342px, 1fr));
+        column-gap: 24px;
+        margin-bottom: 96pxpx;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .best-places__item {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: repeat(auto-fit, minmax(1vh, 1fr));
+        grid-template-areas:
+            "title"
+            "url"
+            "img"
+            "paragraph_top"
+            "paragraph_bottom";
+        column-gap: 32px;
+    }
+}

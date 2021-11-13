@@ -1,5 +1,4 @@
 .lang {
-    font-family: Inter;
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
@@ -8,6 +7,22 @@
     list-style: none;
     padding-left: 0;
     display: flex;
-    margin-top: 46px;
-    margin-right: 48px;
+    margin-top: 47px;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .lang {
+        margin-top: 46px;
+        margin-right: 8px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lang {
+        margin-top: 30px;
+        margin-right: 16px;
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

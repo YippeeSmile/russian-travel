@@ -1,5 +1,29 @@
 .description__banner_map {
-    height: 224.59px;
-    width: 886px;
-    padding: 128.61px 56.5px 261.8px 41.5px;
+    max-width: 1280px;
+    padding-top: 90px;
+    padding-left: 22px;
+}
+
+@media screen and (max-width: 1024px) {
+    .description__banner_map {
+        max-width: 880px;
+        padding-top: 114px;
+        padding-left: 23px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description__banner_map {
+        max-width: 725px;
+        padding-top: 72px;
+        padding-left: 21px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .description__banner_map {
+        max-width: 290px;
+        padding-top: 41px;
+        padding-left: 13px;
+    }
 }

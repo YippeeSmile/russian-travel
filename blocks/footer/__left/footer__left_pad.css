@@ -1,0 +1,12 @@
+.footer__left_pad {
+    /* letter-spacing: 0px; */
+    padding-right: 18px;
+    /* font-size: 16px; */
+    /* line-height: 18px; */
+}
+
+@media screen and (max-width:320px) {
+    .footer__left_pad {
+        padding-right: 0px;
+    }
+}
