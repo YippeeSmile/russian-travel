@@ -28,7 +28,7 @@
     .best-places__item {
         grid-template-columns: repeat(auto-fit, minmax(342px, 1fr));
         column-gap: 24px;
-        margin-bottom: 96pxpx;
+        margin-bottom: 96px;
     }
 }
 
@@ -37,12 +37,7 @@
         display: grid;
         grid-template-columns: 1;
         grid-template-rows: repeat(auto-fit, minmax(1vh, 1fr));
-        grid-template-areas:
-            "title"
-            "url"
-            "img"
-            "paragraph_top"
-            "paragraph_bottom";
+        grid-template-areas: "title" "url" "img" "paragraph_top" "paragraph_bottom";
         column-gap: 32px;
     }
 }
