@@ -8,6 +8,7 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/lang-link/lang-link.css);
+@import url(../blocks/list/list.css);
 
 /*стили для header*/
 
@@ -22,8 +23,8 @@
 @import url(../blocks/description/__title/description__title.css);
 @import url(../blocks/description/__subtitle/description__subtitle.css);
 @import url(../blocks/description/__banner/description__banner.css);
-@import url(../blocks/description/__banner/description__banner_map.css);
-@import url(../blocks/description/__banner/description__banner_image-name.css);
+@import url(../blocks/description/__map/description__map.css);
+@import url(../blocks/description/__name/description__banner_name.css);
 
 /*стили для блока question*/
 
@@ -49,10 +50,10 @@
 @import url(../blocks/best-places/__img/best-places__img.css);
 @import url(../blocks/best-places/__url/best-places__url.css);
 @import url(../blocks/best-places/__paragraph/best-places__paragraph.css);
-@import url(../blocks/best-places/__url/best-places__url_link.css);
+@import url(../blocks/best-places/__link/best-places__link.css);
 @import url(../block/best-places/__img/best-places__img.css);
-@import url(../blocks/best-places/__paragraph/best-places__paragraph_top.css);
-@import url(../blocks/best-places/__paragraph/best-places__paragraph_bottom.css);
+@import url(../blocks/best-places/__paragraph/best-places__paragraph-top.css);
+@import url(../blocks/best-places/__paragraph/best-places__paragraph-bottom.css);
 
 /*стили для bottom-banner*/
 
@@ -65,6 +66,7 @@
 /*стили для footer*/
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__left/footer__left.css);
 @import url(../blocks/footer/__right/footer__right.css);
 @import url(../blocks/footer/__link/footer__link.css);
