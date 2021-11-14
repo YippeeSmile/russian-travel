@@ -1,0 +1,21 @@
+.gallery__img {
+    max-width: 21.9vw;
+}
+
+@media screen and (max-width:1024px) {
+    .gallery__img {
+        max-width: 28.9vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .gallery__img {
+        max-width: 45.9vw;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .gallery__img {
+        max-width: 89.9vw;
+    }
+}

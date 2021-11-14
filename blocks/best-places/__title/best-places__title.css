@@ -1,0 +1,30 @@
+.best-places__title {
+    margin: 0;
+    grid-area: title;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 73px;
+    line-height: 70px;
+    /* align-self: end; */
+}
+
+@media screen and (max-width: 768px) {
+    .best-places__title {
+        max-width: 42vw;
+        /* padding: 0px 1px 1px; */
+        font-size: 42px;
+        line-height: 44px;
+        /* align-self: end; */
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .best-places__title {
+        max-width: 84vw;
+        margin: 0;
+        font-size: 32px;
+        line-height: 35px;
+        grid-area: title;
+        padding-left: 16px;
+    }
+}

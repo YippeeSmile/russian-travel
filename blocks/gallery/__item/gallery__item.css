@@ -1,0 +1,23 @@
+.gallery__item {
+    width: 22.1vw;
+    align-self: stretch;
+}
+
+@media screen and (max-width: 1024px) {
+    .gallery__item {
+        max-width: 21.9vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery__item {
+        max-width: 45.8vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .gallery__item {
+        max-width: 90vw;
+        padding-left: 0;
+    }
+}
