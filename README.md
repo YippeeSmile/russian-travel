@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
 
-[yippeesmile.github.io/russian-travel/](Ссылка на проект)
+[https://yippeesmile.github.io/russian-travel/index.html](Ссылка на проект)
 
 ### О чем проект
 * Описываются интересные места России, куда стоит поехать
