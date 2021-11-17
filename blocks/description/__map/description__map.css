@@ -5,9 +5,9 @@
     padding-left: 22px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1120px) {
     .description__map {
-        max-width: 85vw;
+        max-width: 70vw;
         padding-top: 92px;
         padding-left: 23px;
         max-height: 63vh;
