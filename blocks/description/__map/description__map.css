@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1024px) {
     .description__map {
-        max-width: 841px;
+        max-width: 82vw;
         padding-top: 92px;
         padding-left: 23px;
         max-height: 63vh;
