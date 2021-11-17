@@ -1,0 +1,8 @@
+.best-places__items {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    /* display: grid; */
+    /* grid-template-rows: 342px 726px; */
+    /* gap: 111px; */
+}
