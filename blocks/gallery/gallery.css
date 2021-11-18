@@ -10,6 +10,12 @@
     }
 }
 
+@media screen and (max-width: 650px) {
+    .gallery {
+        margin: 88px auto 0;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .gallery {
         margin: 64px 16px 64px;
