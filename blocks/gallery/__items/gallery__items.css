@@ -1,5 +1,5 @@
 .gallery__items {
-    margin: 0 auto;
+    margin: 92px auto 0;
     /* max-width: 51vw; */
     width: calc(100% - 2 * 48px);
     list-style: none;
@@ -14,16 +14,15 @@
         /* max-width: 99vw; */
         grid-template-columns: repeat(auto-fit, minmax(28vw, 1fr));
         gap: 15px;
-        /* grid-template-columns: fit-content(136%); */
-        grid-auto-flow: rows;
     }
 }
 
 @media screen and (max-width: 768px) {
     .gallery__items {
+        margin: 88px auto 0;
         grid-template-columns: repeat(auto-fit, minmax(38vw, 1fr));
         gap: 16px;
-        grid-auto-rows: auto;
+        /*grid-auto-rows: auto;*/
         /* max-width: 90vw; */
         width: calc(100% - 2 * 16);
     }
@@ -31,9 +30,9 @@
 
 @media screen and (max-width: 320px) {
     .gallery__items {
+        margin: 64px auto 0;
         grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
         gap: 10px;
-        grid-auto-rows: auto;
         width: calc(100vw - 2 * 16px);
     }
 }
