@@ -7,11 +7,6 @@
     margin-bottom: 21px;
 }
 
-.best-places__paragraph:last-child {
-    /* align-self: flex-end; */
-    margin-top: 211px;
-}
-
 @media screen and (max-width: 1028px) {
     .best-places__paragraph {
         margin-bottom: 90px;
