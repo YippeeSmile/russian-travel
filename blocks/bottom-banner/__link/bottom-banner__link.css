@@ -2,3 +2,14 @@
     text-decoration: none;
     color: #FFFFFF;
 }
+
+.bottom-banner__link:hover:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(42, 44, 47, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.3s ease-in;
+}
