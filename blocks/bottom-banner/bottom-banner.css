@@ -1,19 +1,16 @@
 .bottom-banner {
-    margin: 93px auto;
     width: calc(100% - 2 * 48px);
+    margin: 93px auto;
     background-image: url(../../images/__background.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    /*margin: 0px 48px 93px;*/
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     min-height: 740px;
     justify-content: center;
     background-position: center;
-    text-decoration: none;
     color: white;
 }
 
