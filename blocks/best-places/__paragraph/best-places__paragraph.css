@@ -1,0 +1,25 @@
+.best-places__paragraph {
+    grid-area: paragraph;
+    margin: 0;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 163%;
+    margin-bottom: 21px;
+}
+
+@media screen and (max-width: 768px) {
+    .best-places__paragraph {
+        font-size: 16px;
+        line-height: 163%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .best-places__paragraph {
+        padding: 0px 16px;
+    }
+    .best-places__paragraph:last-child {
+        line-height: 163%;
+        font-size: 16px;
+    }
+}
