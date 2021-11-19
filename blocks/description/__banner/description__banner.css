@@ -15,11 +15,12 @@
 @media screen and (max-width: 768px) {
     .description__banner {
         height: 480px;
+        width: 100%;
         margin: 0px;
     }
 }
 
-@media screen and (max-width: 517px) {
+@media screen and (max-width: 650px) {
     .description__banner {
         height: 350px;
         width: 100%;
