@@ -22,6 +22,7 @@
 @media screen and (max-width: 517px) {
     .description__banner {
         height: 350px;
+        width: 100%;
     }
 }
 
