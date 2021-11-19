@@ -1,16 +1,3 @@
  .description {
      max-width: 1280px;
-     margin: 0 auto 92px;
- }
- 
- @media screen and (max-width: 768px) {
-     .description {
-         margin-bottom: 88px;
-     }
- }
- 
- @media screen and (min-width: 320px) and (max-width: 550px) {
-     .description {
-         margin-bottom: 64px;
-     }
  }
