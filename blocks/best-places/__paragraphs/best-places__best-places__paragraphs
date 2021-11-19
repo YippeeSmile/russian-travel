@@ -1,4 +1,0 @@
-.best-places__paragraphs {
-    margin: 0 16px;
-    grid-area: paragraphs;
-}
