@@ -6,6 +6,7 @@
 
 @media screen and (max-width: 1024px) {
     .description__banner {
+        width: calc(100% - 2 * 48px);
         height: 580px;
         margin: 0px 48px;
     }
