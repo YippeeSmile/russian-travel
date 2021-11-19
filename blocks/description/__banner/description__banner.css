@@ -1,0 +1,35 @@
+.description__banner {
+    width: calc(100% - 2 * 148px);
+    height: 615px;
+    margin: 0px 148px;
+}
+
+@media screen and (max-width: 1024px) {
+    .description__banner {
+        width: calc(100% - 2 * 48px);
+        height: 580px;
+        margin: 0px 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description__banner {
+        height: 480px;
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .description__banner {
+        height: 350px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 380px) {
+    .description__banner {
+        height: 200px;
+        width: 100%;
+    }
+}
