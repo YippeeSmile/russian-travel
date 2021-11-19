@@ -5,11 +5,11 @@
     grid-template-areas: "title url" "img paragraphs";
     row-gap: 48px;
     column-gap: 40px;
-    /*margin-top: 80px;*/
+    margin-bottom: 80px;
 }
 
-.best-places__item:first-child {
-    margin-top: 0;
+.best-places__item:last-child {
+    margin-bottom: 0px;
 }
 
 @media screen and (max-width: 1024px) {
