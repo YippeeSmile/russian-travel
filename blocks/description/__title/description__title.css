@@ -1,11 +1,10 @@
 .description__title {
-    margin: 0 auto;
+    margin: 0px 280px;
     font-weight: 900;
     font-style: normal;
     font-size: 96px;
     line-height: 100px;
     text-align: center;
-    margin: 0px 280px;
 }
 
 @media screen and (max-width: 1245px) {
