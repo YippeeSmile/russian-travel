@@ -1,0 +1,35 @@
+.banner__subtitle {
+    max-width: 560px;
+    padding-top: 25px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 27px;
+    z-index: 2;
+    text-align: center;
+}
+
+@media screen and (max-width: 580px) {
+    .banner__subtitle {
+        max-width: 530px;
+        font-size: 17px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .banner__subtitle {
+        max-width: 450px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 320px) {
+    .banner__subtitle {
+        max-width: 270px;
+        font-size: 13px;
+        line-height: 16px;
+    }
+}
