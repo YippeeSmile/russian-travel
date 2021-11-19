@@ -6,13 +6,14 @@
 
 /*Общие стили для страницы*/
 
+@import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/lang-link/lang-link.css);
-@import url(../blocks/list/list.css);
 
 /*стили для header*/
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/lang/lang.css);
 @import url(../blocks/lang/__change/lang__change.css);
@@ -23,7 +24,6 @@
 @import url(../blocks/description/__title/description__title.css);
 @import url(../blocks/description/__subtitle/description__subtitle.css);
 @import url(../blocks/description/__banner/description__banner.css);
-@import url(../blocks/description/__map/description__map.css);
 @import url(../blocks/description/__name/description__name.css);
 
 /*стили для блока question*/
@@ -32,7 +32,8 @@
 @import url(../blocks/question/__title/question__title.css);
 @import url(../blocks/question/__text/question__text.css);
 @import url(../blocks/question/__list/question__list.css);
-@import url(..//blocks//question/__item/question__item.css);
+@import url(../blocks//question/__item/question__item.css);
+@import url(../blocks/question/__wrapper/question__wrapper.css);
 
 /*стили для блока gallery*/
 
@@ -49,22 +50,21 @@
 @import url(../blocks/best-places/__item/best-places__item.css);
 @import url(../blocks/best-places/__img/best-places__img.css);
 @import url(../blocks/best-places/__url/best-places__url.css);
+@import url(../blocks/best-places/__paragraphs/best-places__paragraphs.css);
 @import url(../blocks/best-places/__paragraph/best-places__paragraph.css);
-@import url(../blocks/best-places/__paragraphs/best-places__best-places__paragraphs.css);
 @import url(../blocks/best-places/__link/best-places__link.css);
 
 /*стили для bottom-banner*/
 
-@import url(../blocks/bottom-banner/bottom-banner.css);
-@import url(../blocks/bottom-banner/__title/bottom-banner__title.css);
-@import url(../blocks/bottom-banner/__subtitle/bottom-banner__subtitle.css);
-@import url(../blocks/bottom-banner/bottom-banner_dark-mask.css);
-@import url(../blocks/bottom-banner/__link/bottom-banner__link.css);
+@import url(../blocks/banner/banner.css);
+@import url(../blocks/banner/__title/banner__title.css);
+@import url(../blocks/banner/__subtitle/banner__subtitle.css);
+@import url(../blocks/banner/__image-link/banner__image-link.css);
 
 /*стили для footer*/
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list/footer__list.css);
-@import url(../blocks/footer/__left/footer__left.css);
-@import url(../blocks/footer/__right/footer__right.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
