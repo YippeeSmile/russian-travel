@@ -7,21 +7,8 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1245px) {
-    .description__title {
-        margin: 0px 152px;
-    }
-}
-
-@media screen and (max-width: 978px) {
-    .description__title {
-        margin: 0px 95px;
-    }
-}
-
 @media screen and (max-width: 865px) {
     .description__title {
-        margin: 0px;
         font-size: 78px;
     }
 }
@@ -29,7 +16,6 @@
 @media screen and (min-width: 651px) and (max-width: 710px) {
     .description__title {
         font-size: 70px;
-        margin: 0px 88px;
     }
 }
 
@@ -37,6 +23,5 @@
     .description__title {
         line-height: 44px;
         font-size: 40px;
-        margin: 0px 16px;
     }
 }
