@@ -44,15 +44,15 @@
 /*стили для блока best-places*/
 
 @import url(../blocks/best-places/best-places.css);
-@import url(../blocks/best-places/__title/best-places__title.css);
-@import url(../blocks/best-places/__items/best-places__items.css);
-@import url(../blocks/best-places/__item/best-places__item.css);
-@import url(../blocks/best-places/__img/best-places__img.css);
-@import url(../blocks/best-places/__url/best-places__url.css);
-@import url(../blocks/best-places/__paragraphs/best-places__paragraphs.css);
-@import url(../blocks/best-places/__paragraph/best-places__paragraph.css);
-@import url(../blocks/best-places/__link/best-places__link.css);
-@import url(../blocks/best-places/__web/best-places__web.css);
+@import url(../blocks/best-place/best-place.css);
+@import url(../blocks/best-place/__img/best-place__img.css);
+@import url(../blocks/best-place/__items/best-place__items.css);
+@import url(../blocks/best-place/__link/best-place__link.css);
+@import url(../blocks/best-place/__paragraphs/best-place__paragraphs.css);
+@import url(../blocks/best-place/__paragraph/best-place__paragraph.css);
+@import url(../blocks/best-place/__title/best-places__title.css);
+@import url(../blocks/best-place/__web/best-places__web.css);
+@import url(../blocks/best-place/__url/best-places__url.css);
 
 /*стили для bottom-banner*/
 
