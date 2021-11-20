@@ -1,0 +1,29 @@
+.best-places__img {
+    grid-area: img;
+    max-width: 36vw;
+}
+
+@media screen and (max-width: 1024px) {
+    .best-places__img {
+        max-width: 43vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .best-places__img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .best-places__img {
+        max-width: 55vw;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 550px) {
+    .best-places__img {
+        min-width: 100vw;
+        margin: 0 0 32px;
+    }
+}

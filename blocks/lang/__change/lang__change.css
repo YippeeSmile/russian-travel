@@ -1,0 +1,7 @@
+.lang__change {
+    padding-right: 18px;
+}
+
+.lang__change:last-child {
+    padding-right: 0px;
+}
