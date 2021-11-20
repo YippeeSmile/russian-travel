@@ -23,7 +23,7 @@
     .best-place {
         grid-template-columns: minmax(288px, 440px) minmax(288px, 455px);
         column-gap: 28px;
-        margin: 72px 24px 0px;
+        margin: 0px 24px 0px;
     }
 }
 
