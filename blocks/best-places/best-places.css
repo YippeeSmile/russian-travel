@@ -9,12 +9,7 @@
 @media screen and (max-width: 1024px) {
     .best-places {
         width: calc(100vw - 2 * 48px);
-    }
-}
-
-@media screen and (max-width: 1021px) {
-    .best-places {
-        width: calc(100vw - 2 * 40px);
+        margin: 92px 48px 0px;
     }
 }
 
@@ -27,7 +22,7 @@
 
 @media screen and (max-width: 500px) {
     .best-places {
-        margin: 0px auto;
+        margin: 64px 0px;
         width: 100vw;
     }
 }
