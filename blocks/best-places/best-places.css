@@ -15,7 +15,6 @@
 
 @media screen and (max-width: 768px) {
     .best-places {
-        margin: 88px 24px 0px 24px;
         width: calc(100vw - 2 * 24px);
     }
 }
