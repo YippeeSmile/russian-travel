@@ -1,0 +1,16 @@
+.gallery {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery {
+        margin-top: 88px auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .gallery {
+        margin: 64px 0px;
+        padding: 0px;
+    }
+}
