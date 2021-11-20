@@ -38,10 +38,9 @@
 
 /*стили для блока gallery*/
 
-@import url(../blocks/gallery/__items/gallery__items.css);
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__items/gallery__items.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
-@import url(../blocks/gallery/__img/gallery__img.css);
 
 /*стили для блока best-places*/
 
