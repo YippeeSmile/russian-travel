@@ -1,14 +1,12 @@
 .best-places {
-    margin-top: 98px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-/*
+
 @media screen and (max-width: 1024px) {
     .best-places {
         width: calc(100vw - 2 * 48px);
-        margin-left: 48px;
     }
 }
 
@@ -24,4 +22,4 @@
         margin: 0px auto;
         width: 100vw;
     }
-}*/
+}
