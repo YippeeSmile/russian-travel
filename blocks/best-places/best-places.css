@@ -6,6 +6,12 @@
     align-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .best-places {
+        width: calc(100vw - 2 * 48px);
+    }
+}
+
 @media screen and (max-width: 768px) {
     .best-places {
         margin: 88px 24px 0px 24px;
