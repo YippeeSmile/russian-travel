@@ -3,12 +3,6 @@
     max-width: 36vw;
 }
 
-@media screen and (max-width: 1024px) {
-    .best-places__img {
-        max-width: 43vw;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .best-places__img {
         width: 100%;
