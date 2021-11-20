@@ -1,18 +1,10 @@
 .question {
     margin: 0px 0px 0px 148px;
 }
-/*
+
 @media screen and (max-width: 1024px) {
     .question {
-        width: calc(100% - 2 * 48px);
         margin-left: 48px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .question {
-        margin: 0px 24px;
-        /* width: calc(100% - 2 * 16px); */
     }
 }
 
@@ -20,4 +12,4 @@
     .question {
         margin: 0px 16px;
     }
-}*/
+}
