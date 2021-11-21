@@ -46,6 +46,14 @@
     }
 }
 
+@media screen and (max-width: 550px) {
+    .best-place {
+        max-width: 350px;
+        padding: 0px 12px;
+        grid-template-columns: minmax(200px, 440px) minmax(221px, 456px);
+    }
+}
+
 @media screen and (min-width: 320px) and (max-width: 550px) {
     .best-place {
         grid-template-columns: 1fr;
