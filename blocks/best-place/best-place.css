@@ -39,6 +39,13 @@
     }
 }
 
+@media screen and (max-width: 568px) {
+    .best-place {
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+}
+
 @media screen and (min-width: 320px) and (max-width: 550px) {
     .best-place {
         grid-template-columns: 1fr;
