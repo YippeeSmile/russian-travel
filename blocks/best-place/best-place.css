@@ -41,7 +41,7 @@
 @media screen and (max-width: 580px) {
     .best-place {
         max-width: 500px;
-        padding: 0px 48px;
+        padding: 0px 24px;
         grid-template-columns: minmax(200px, 440px) minmax(221px, 456px);
     }
 }
