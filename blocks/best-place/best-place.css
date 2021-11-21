@@ -32,17 +32,15 @@
 @media screen and (max-width: 768px) {
     .best-place {
         max-width: 720px;
-        grid-template-columns: minmax(280px, 440px) minmax(288px, 456px);
+        grid-template-columns: minmax(265px, 330px) minmax(272px, 456px);
         column-gap: 28px;
         margin-left: 0px;
-        margin-bottom: 73px;
     }
 }
 
 @media screen and (max-width: 580px) {
     .best-place {
         max-width: 500px;
-        margin-bottom: 50px;
         padding: 0px 48px;
         grid-template-columns: minmax(200px, 440px) minmax(221px, 456px);
     }
