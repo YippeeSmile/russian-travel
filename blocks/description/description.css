@@ -2,3 +2,9 @@
     max-width: 1280px;
     /* padding: 0; */
 }
+
+@media  screen and (max-width: 870px) {
+    .description {
+        max-width: 860px;
+    }
+}
