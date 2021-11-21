@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 1000px) {
     .best-place {
-        grid-template-columns: minmax(280px, 440px) minmax(288px, 456px);
+        grid-template-columns: minmax(320px, 440px) minmax(239px, 455px);
         column-gap: 28px;
         margin-left: 0px;
         margin-bottom: 73px;
