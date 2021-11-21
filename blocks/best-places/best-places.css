@@ -15,6 +15,13 @@
 @media screen and (max-width: 500px) {
     .best-places {
         margin-top: 64px;
+        padding-left: 24px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .best-places {
         padding: 0px;
     }
 }
