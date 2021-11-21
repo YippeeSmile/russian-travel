@@ -20,6 +20,12 @@
     }
 }
 
+@media screen and (max-width: 998px) {
+    .best-place {
+        margin-left: 0px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .best-place {
         grid-template-columns: minmax(280px, 440px) minmax(288px, 456px);
