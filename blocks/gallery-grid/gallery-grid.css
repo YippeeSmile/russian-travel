@@ -20,8 +20,9 @@
     .gallery-grid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        max-width: calc(100% - 2 * 24px);
+        max-width: 100%;
         gap: 19px;
+        padding: 0px 24px;
     }
 }
 
