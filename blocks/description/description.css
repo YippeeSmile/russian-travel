@@ -4,6 +4,18 @@
 
 @media  screen and (max-width: 870px) {
     .description {
-        max-width: 860px;
+        max-width: 870px;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .description {
+        max-width: 768px;
+    }
+}
+
+@media  screen and (max-width: 320px) {
+    .description {
+        max-width: 320px;
     }
 }
