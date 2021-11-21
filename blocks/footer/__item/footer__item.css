@@ -8,8 +8,7 @@
 
 @media screen and (max-width: 615px) {
     .footer__item {
-        padding-right: 0px;
-        padding-bottom: 32px;
+        padding-right: 0px 0px 32px 16px;
     }
     .footer__item:last-child {
         padding-bottom: 48px;
