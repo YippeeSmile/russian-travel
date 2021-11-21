@@ -8,7 +8,7 @@
     }
 }
 
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 768px) {
     .question {
         padding-left: 24px;
     }
