@@ -51,6 +51,6 @@
         grid-template-columns: 1fr;
         grid-template-areas: "title" "url" "img" "paragraphs";
         margin-bottom: 50px;
-        padding: 0px 16px;
+        padding: 0px;
     }
 }
