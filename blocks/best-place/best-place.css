@@ -60,5 +60,6 @@
         grid-template-areas: "title" "url" "img" "paragraphs";
         margin-bottom: 50px;
         padding: 0px;
+        gap: 32px;
     }
 }
