@@ -8,7 +8,7 @@
         max-width: 100vw;
         margin-rigth: 0px;
         margin-left: 0px;
-        min-height: 640px;
+        max-height: 640px;
     }
 }
 
