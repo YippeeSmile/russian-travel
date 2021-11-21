@@ -34,7 +34,7 @@
     }
 }
 
-@media screen and (max-width: 320px) and (max-width: 450px) {
+@media screen and (max-width: 320px) and (max-width: 600px) {
     .gallery-grid {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(12, 1fr);
