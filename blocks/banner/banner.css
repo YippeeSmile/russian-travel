@@ -23,6 +23,6 @@
 @media screen and (min-width: 320px) and (max-width: 483px) {
     .banner {
         margin: 66px 0 64px;
-        height: 200px;
+        min-height: 200px;
     }
 }
