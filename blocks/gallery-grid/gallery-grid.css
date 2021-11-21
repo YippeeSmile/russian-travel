@@ -26,6 +26,13 @@
     }
 }
 
+
+@media screen and (max-width: 768px) {
+    .gallery-grid {
+        gap: 15px;
+    }
+}
+
 @media screen and (max-width: 680px) {
     .gallery-grid {
         margin-top: 64px 16px 0 16px;
