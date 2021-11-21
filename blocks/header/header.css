@@ -1,10 +1,10 @@
 .header {
-    max-width: calc(100vw - 2 * 48px);
+    max-width: 1184px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 48px;
-    margin: 28px auto 56px;
+    margin: 28px 0px 56px;
 }
 
 @media screen and (max-width: 1024px) {
