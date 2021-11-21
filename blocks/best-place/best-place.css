@@ -38,7 +38,7 @@
     }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 650px) {
     .best-place {
         max-width: 500px;
         padding: 0px 24px;
