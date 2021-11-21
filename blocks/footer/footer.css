@@ -1,11 +1,20 @@
 .footer {
+    max-width: calc(100% - 2 * 48px);
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
+    margin: 0px 48px;
     padding-bottom: 24px;
+    letter-spacing: 1px;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 728px) {
+    .footer {
+        max-width: calc(100% - 2 * 24px);
+    }
+}
+
+@media screen and (max-width: 650px) {
     .footer {
         flex-direction: column;
     }
@@ -14,6 +23,5 @@
 @media screen and (max-width: 483px) {
     .footer {
         max-width: 448px;
-        flex-direction: column;
     }
 }
