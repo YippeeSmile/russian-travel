@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    padding-bottom: 24px;
+    padding: 0px 24px 48px;
     letter-spacing: 1px;
 }
 
