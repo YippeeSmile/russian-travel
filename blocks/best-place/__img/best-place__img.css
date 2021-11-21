@@ -1,11 +1,11 @@
 .best-place__img {
     grid-area: img;
-    max-width: 36vw;
+    max-width: 460px;
 }
 
 @media screen and (max-width: 1024px) {
     .best-place__img {
-        max-width: 43vw;
+        max-width: 440px;
     }
 }
 
