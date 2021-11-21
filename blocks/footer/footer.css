@@ -2,14 +2,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    padding: 0px 48px 24px;
+    padding: 0px auto;
     letter-spacing: 1px;
-}
-
-@media screen and (max-width: 728px) {
-    .footer {
-        padding: 0px 24px;
-    }
+    padding-bottom: 24px;
 }
 
 @media screen and (max-width: 710px) {
@@ -22,7 +17,6 @@
     .footer {
         max-width: 448px;
         flex-direction: column;
-        padding-left: 16px;
         margin: 0;
     }
 }
