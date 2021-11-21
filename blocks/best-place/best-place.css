@@ -44,6 +44,7 @@
         max-width: 500px;
         margin-bottom: 50px;
         padding: 0px 48px;
+        grid-template-columns: minmax(200px, 440px) minmax(221px, 456px);
     }
 }
 
