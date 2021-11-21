@@ -8,6 +8,14 @@
     text-align: center;
 }
 
+@media screen and (max-width: 870px) {
+    .description__title {
+        max-width: 650px;
+        font-size: 74px;
+        line-height: 80px;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .description__title {
         max-width: 450px;
