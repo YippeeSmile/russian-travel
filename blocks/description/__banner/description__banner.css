@@ -15,7 +15,7 @@
 @media screen and (max-width: 768px) {
     .description__banner {
         max-height: 480px;
-        max-width: 100%;
+        max-width: 99%;
         margin: 0px;
     }
 }
