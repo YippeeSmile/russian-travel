@@ -11,6 +11,9 @@
     .footer {
         padding: 0px 24px;
         margin: 0px auto;
+        justify-content: none;
+        align-items: none;
+        letter-spacing: 0px;
     }
 }
 
