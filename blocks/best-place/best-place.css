@@ -24,20 +24,15 @@
     .best-place {
         grid-template-columns: minmax(280px, 440px) minmax(288px, 456px);
         column-gap: 28px;
-        margin: 0px 24px 0px;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .best-place {
-        grid-template-columns: 1fr;
-        column-gap: 0px;
-        grid-template-areas: "title" "url" "img" "paragraphs";
+        /*margin: 0px 24px 73px;*/
+        margin-bottom: 73px;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 550px) {
     .best-place {
+        grid-template-columns: 1fr;
         grid-template-areas: "title" "url" "img" "paragraphs";
+        margin-bottom: 50px;
     }
 }
