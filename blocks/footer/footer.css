@@ -28,3 +28,11 @@
         margin: 0px 0px 24px 16px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .footer {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
