@@ -10,7 +10,5 @@
     .footer__item {
         padding: 0px 0px 32px 16px;
     }
-    .footer__item:last-child {
-        padding-bottom: 48px;
-    }
 }
+
