@@ -15,9 +15,15 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 550px) {
+@media screen and (max-width: 550px) {
+    .best-place__img {
+        min-width: 95vw;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 549px) {
     .best-place__img {
         min-width: 100vw;
-        margin: 0 0 32px;
+
     }
 }
