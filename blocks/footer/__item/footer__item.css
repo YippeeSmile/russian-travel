@@ -2,6 +2,10 @@
     padding-right: 18px;
 }
 
+.footer__item:last-child {
+    padding-right: 0px;
+}
+
 @media screen and (max-width: 615px) {
     .footer__item {
         padding-right: 0px;
