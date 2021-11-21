@@ -3,8 +3,8 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1280px;
-    padding: 28px 48px 0px;
-    margin-bottom: 56px;
+    padding: 0px 48px;
+    margin: 28px 0 56px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,19 +15,19 @@
 
 @media screen and (max-width: 1005px) {
     .header {
-        margin: 28px 30px 48px;
+        padding: 0px 30px;
     }
 }
 
 @media screen and (max-width: 728px) {
     .header {
-        margin: 28px 24px 48px;
+        padding: 0px 24;
     }
 }
 
 @media screen and (max-width: 320px) {
     .header {
-        margin: 16px 16px 48px;
-        padding: 0;
+        margin: 16px 48px;
+        padding: 0px 16px
     }
 }
