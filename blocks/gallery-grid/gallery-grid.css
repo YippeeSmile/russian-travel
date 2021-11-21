@@ -21,7 +21,6 @@
         margin: 0px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        max-width: 100%;
         gap: 15px;
         padding: 0px 24px;
     }
