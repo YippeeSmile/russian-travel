@@ -9,10 +9,3 @@
         max-height: 100%;
     }
 }
-
-@media screen and (max-width: 650px) {
-    .gallery-grid__item {
-        max-width: 250px;
-        max-height: 261px;
-    }
-}
