@@ -35,6 +35,7 @@
         grid-template-columns: minmax(265px, 330px) minmax(272px, 456px);
         column-gap: 28px;
         margin-left: 0px;
+        padding: 0px 24px;
     }
 }
 
