@@ -6,6 +6,10 @@
     margin-bottom: 21px;
 }
 
+.best-place__paragraph:last-child {
+    padding-top: 26px;
+}
+
 @media screen and (max-width: 768px) {
     .best-place__paragraph {
         font-size: 16px;
