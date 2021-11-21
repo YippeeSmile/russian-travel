@@ -43,6 +43,7 @@
     .best-place {
         max-width: 500px;
         margin-bottom: 50px;
+        padding: 0px 48px;
     }
 }
 
@@ -51,5 +52,6 @@
         grid-template-columns: 1fr;
         grid-template-areas: "title" "url" "img" "paragraphs";
         margin-bottom: 50px;
+        padding: 0px;
     }
 }
