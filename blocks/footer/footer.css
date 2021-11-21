@@ -1,19 +1,11 @@
 .footer {
-   /* max-width: calc(1280px - 2 * 48px);*/
     max-width: 1184px;
-    margin: 0 auto 24px;
+    margin: 0px 48px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     letter-spacing: 1px;
-    /*margin: 0 auto 24px;*/
 }
-/*
-@media screen and (max-width: 1024px) {
-    .footer {
-        max-width: calc(100vw - 2 * 48px);
-    }
-}*/
 
 @media screen and (max-width: 768px) {
     .footer {
