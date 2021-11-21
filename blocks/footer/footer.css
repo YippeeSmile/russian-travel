@@ -4,6 +4,7 @@
     margin: 0 48px 24px 48px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: nowrap;
     letter-spacing: 1px;
     /*margin: 0 auto 24px;*/
