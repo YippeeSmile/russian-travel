@@ -51,5 +51,6 @@
         grid-template-columns: 1fr;
         grid-template-areas: "title" "url" "img" "paragraphs";
         margin-bottom: 50px;
+        row-gap: 32px;
     }
 }
