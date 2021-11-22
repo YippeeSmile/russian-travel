@@ -8,13 +8,6 @@
     text-align: center;
 }
 
-@media screen and (max-width: 685px) {
-    .description__title {
-        max-width: 400px;
-        padding: 0px 24px;
-    }
-}
-
 @media screen and (max-width: 450px) {
     .description__title {
         line-height: 44px;
