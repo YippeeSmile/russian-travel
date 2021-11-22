@@ -38,7 +38,7 @@
         margin-bottom: 50px;
     }
     .best-place:first-child {
-        margin-bottom: 32px;
+        row-gap: 32px;
     }
     .best-place:last-child {
         margin-bottom: 66px;
