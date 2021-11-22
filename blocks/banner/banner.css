@@ -1,6 +1,6 @@
 .banner {
     max-width: 1184px;
-    margin: 92px auto;
+    margin: 0px auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -11,14 +11,12 @@
 
 @media screen and (max-width: 768px) {
     .banner {
-        margin: 90px 0px 88px;
         max-width: 100vw;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 483px) {
     .banner {
-        margin: 66px 0 64px;
         min-height: 200px;
     }
 }
