@@ -8,22 +8,9 @@
         width: 100%;
     }
 }
-/*
-@media screen and (max-width: 650px) {
-    .best-place__img {
-        max-width: 55vw;
-    }
-}
 
 @media screen and (max-width: 550px) {
     .best-place__img {
-        min-width: 95vw;
+        margin: 0px auto;
     }
 }
-
-@media screen and (min-width: 320px) and (max-width: 549px) {
-    .best-place__img {
-        min-width: 100vw;
-
-    }
-}*/
