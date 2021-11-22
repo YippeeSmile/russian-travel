@@ -1,5 +1,6 @@
 .description__text {
     max-width: 690px;
+    margin: 0px auto;
 }
 
 @media screen and (max-width: 768px) {
