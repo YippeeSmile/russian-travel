@@ -1,11 +1,16 @@
 .best-place {
     max-width: 1280px;
     display: grid;
-    grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 800px);
     grid-template-areas: "title url" "img paragraphs";
     row-gap: 48px;
     column-gap: 40px;
     margin-bottom: 80px;
+}
+
+.best-place:nth-child(2) {
+    grid-template-areas: "paragraphs img";
 }
 
 .best-place:last-child {
@@ -14,52 +19,44 @@
 
 @media screen and (max-width: 1024px) {
     .best-place {
-        grid-template-columns: minmax(320px, 440px) minmax(303px, 529px);
+        grid-template-columns: repeat(1fr, 1fr);
+        grid-template-rows: minmax(max-content, 100px) minmax(200px, 800px);
+        width: calc(100% - 2 * 48px);
         column-gap: 32px;
-        margin-left: 48px;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .best-place {
-        grid-template-columns: minmax(320px, 440px) minmax(239px, 455px);
-        column-gap: 28px;
-        margin-left: 0px;
-        margin-bottom: 73px;
+        margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 768px) {
     .best-place {
-        max-width: 720px;
-        grid-template-columns: minmax(265px, 330px) minmax(272px, 456px);
+        grid-template-columns: minmax(288px, 440px) minmax(288px, 455px);
         column-gap: 28px;
-        margin-left: 0px;
+        width: calc(100% - 2 * 48px);
+        grid-template-areas: "paragraphs" "img";
+        padding-top: 50px;
+    }
+    .best-place:nth-child(2) {
+        grid-template-areas: "paragraphs" "img";
     }
 }
 
 @media screen and (max-width: 650px) {
     .best-place {
-        max-width: 500px;
-        padding: 0px 24px;
-        grid-template-columns: minmax(200px, 440px) minmax(221px, 456px);
+        width: calc(100% - 2 * 24px);
+        grid-template-rows: minmax(max-content, 300px) minmax(200px, 450px);
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (min-width: 320px) and (max-width: 550px) {
     .best-place {
-        max-width: 350px;
-        padding: 0px 12px;
-        grid-template-columns: minmax(200px, 440px) minmax(221px, 456px);
+        padding-top: 30px;
+        width: 100vw;
+        grid-template-rows: minmax(max-content, 300px) minmax(200px, 400px);
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 459px) {
+@media screen and (min-width: 320px) and (max-width: 380px) {
     .best-place {
-        grid-template-columns: 1fr;
-        grid-template-areas: "title" "url" "img" "paragraphs";
-        margin-bottom: 50px;
-        padding: 0px;
-        row-gap: 32px;
+        grid-template-rows: minmax(max-content, 300px) minmax(200px, 320px);
     }
 }
