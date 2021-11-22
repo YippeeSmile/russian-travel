@@ -4,7 +4,6 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 800px);
     grid-template-areas: "title url" "img paragraphs";
-    row-gap: 48px;
     column-gap: 40px;
     margin-bottom: 80px;
 }
@@ -22,7 +21,6 @@
         grid-template-columns: repeat(1fr, 1fr);
         grid-template-rows: minmax(max-content, 100px) minmax(200px, 800px);
         width: calc(100% - 2 * 48px);
-        column-gap: 32px;
         margin: 0 auto;
     }
 }
