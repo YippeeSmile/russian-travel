@@ -30,7 +30,14 @@
 
 @media screen and (max-width: 540px) {
     .description__title {
+        line-height: 44px;
+        font-size: 40px;
+    }
+}
+/*
+@media screen and (max-width: 320px) {
+    .description__title {
         line-height: 32px;
         font-size: 35px;
     }
-}
+}*/
