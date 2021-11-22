@@ -34,8 +34,11 @@
         grid-template-columns: 1fr;
         grid-template-areas: "title" "url" "img" "paragraphs";
         column-gap: 0;
-        row-gap: 32px;
+        row-gap: 50px;
         margin-bottom: 50px;
+    }
+    .best-place:first-child {
+        margin-bottom: 32px;
     }
     .best-place:last-child {
         margin-bottom: 66px;
