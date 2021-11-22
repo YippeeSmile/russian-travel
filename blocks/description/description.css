@@ -1,7 +1,7 @@
 .description {
     calc(100vw - 2 * 280px);
 }
-
+/*
 @media screen and (max-width: 1024px) {
     .description {
         calc(100vw - 2 * 152px);
@@ -25,3 +25,4 @@
         calc(100vw - 2 * 16px);
     }
 }
+*/
