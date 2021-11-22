@@ -3,7 +3,6 @@
     grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
     row-gap: 48px;
     column-gap: 40px;
-    margin-top: 80px;
     grid-template-areas:
       "title url"
       "img paragraphs";
@@ -24,7 +23,6 @@
     .best-place {
       grid-template-columns: minmax(280px, 440px) minmax(288px, 456px);
       column-gap: 28px;
-      margin-top: 72px;
     }
   }
   
@@ -43,6 +41,5 @@
   @media screen and (max-width: 500px) {
     .best-place {
       row-gap: 0;
-      margin-top: 50px;
     }
   }
