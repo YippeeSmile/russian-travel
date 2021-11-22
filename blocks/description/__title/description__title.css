@@ -14,11 +14,17 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .description__title {
+        max-width: calc(100vw - 2 * 48px);
+    }
+}
+
 @media screen and (max-width: 573px) {
     .description__title {
         margin: 0;
         font-size: 80px;
-        max-width: 100vw;
+        max-width: calc(100vw - 2 * 24px);
     }
 }
 
