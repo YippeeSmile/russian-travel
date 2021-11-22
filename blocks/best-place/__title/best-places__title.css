@@ -10,8 +10,8 @@
 @media screen and (max-width: 870px) {
     .best-place__title {
         font-size: 60px;
-        align-self: self-start;
-        grid-row: 1/2;
+        /*align-self: self-start;
+        grid-row: 1/2;*/
     }
 }
 
