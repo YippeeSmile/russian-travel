@@ -44,10 +44,7 @@
   }
   
   @media screen and (max-width: 500px) {
-    .best-place {
-      row-gap: 0;
-    }
     .best-place:last-child {
     margin-bottom: 66px;
   }
-  }
+ }
