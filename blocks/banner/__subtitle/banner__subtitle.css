@@ -18,3 +18,9 @@
         line-height: 16px;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .banner__subtitle {
+        max-width: 267px;
+    }
+}
