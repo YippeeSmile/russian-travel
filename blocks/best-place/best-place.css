@@ -6,10 +6,11 @@
     grid-template-areas:
       "title url"
       "img paragraphs";
+    margin-bottom: 80px;
   }
   
-.best-place:first-child {
-    margin-top: 0;
+.best-place:last-child {
+    margin-bottom: 92px;
   }
   
   @media screen and (max-width: 1024px) {
@@ -23,9 +24,12 @@
     .best-place {
       grid-template-columns: minmax(280px, 340px) minmax(288px, 352px);
       column-gap: 28px;
-      margin-bottom: 73px;
+      margin-bottom: 72px;
     }
+    .best-place:last-child {
+    margin-bottom: 90px;
   }
+}
   
   @media screen and (max-width: 660px) {
     .best-place {
@@ -43,4 +47,7 @@
     .best-place {
       row-gap: 0;
     }
+    .best-place:last-child {
+    margin-bottom: 66px;
+  }
   }
