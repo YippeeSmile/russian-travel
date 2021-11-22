@@ -8,7 +8,7 @@
 }
 
 .best-place:nth-child(2) {
-    grid-template-areas: "paragraphs img";
+    grid-template-areas: "img paragraphs";
 }
 
 .best-place:last-child {
