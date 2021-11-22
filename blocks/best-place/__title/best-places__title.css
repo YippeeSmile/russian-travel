@@ -19,6 +19,7 @@
     .best-place__title {
         font-size: 42px;
         line-height: 46px;
+        padding-right: 10px;
     }
 }
 
