@@ -5,7 +5,7 @@
     column-gap: 40px;
     margin-top: 80px;
     grid-template-areas:
-      "title web"
+      "title url"
       "img paragraphs";
   }
   
@@ -33,7 +33,7 @@
       grid-template-columns: 1fr;
       grid-template-areas:
         "title"
-        "web"
+        "url"
         "img"
         "paragraphs";
       column-gap: 0;
