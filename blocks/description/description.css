@@ -14,6 +14,12 @@
     }
 }
 
+@media screen and (max-width: 685px) {
+    .description {
+        calc(100vw - 2 * 24px);
+    }
+}
+
 @media screen and (max-width: 425px) {
     .description {
         calc(100vw - 2 * 16px);
