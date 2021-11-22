@@ -2,7 +2,6 @@
     max-width: 1280px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 800px);
     grid-template-areas: "title url" "img paragraphs";
     margin-bottom: 80px;
 }
