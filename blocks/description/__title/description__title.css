@@ -18,6 +18,14 @@
 
 @media screen and (max-width: 665px) {
     .description__title {
+        max-width: 450px;
+        font-size: 74px;
+        line-height: 80px;
+    }
+}
+
+@media screen and (max-width: 552px) {
+    .description__title {
         margin: 0 auto;
         max-width: 288px;
         line-height: 44px;
