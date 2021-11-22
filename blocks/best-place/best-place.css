@@ -4,7 +4,6 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 800px);
     grid-template-areas: "title url" "img paragraphs";
-    column-gap: 40px;
     margin-bottom: 80px;
 }
 
