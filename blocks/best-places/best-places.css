@@ -1,3 +1,23 @@
 .best-places {
-    margin: 0 auto;
-  }
+    margin: 0px auto;
+    width: calc(1280 - 2 * 148px);
+}
+
+@media screen and (max-width: 1024px) {
+    .best-places {
+        width: calc(1280 - 2 * 48px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .best-places {
+        width: calc(1280 - 2 * 24px);
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .best-places {
+        max-width: 320px;
+    }
+}
