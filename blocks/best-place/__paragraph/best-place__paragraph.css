@@ -12,9 +12,5 @@
 @media screen and (max-width: 768px) {
     .best-place__paragraph {
         font-size: 16px;
-        line-height: 163%;
-    }
-    .best-place__paragraph:last-child {
-        padding-top: 25px;
     }
 }
