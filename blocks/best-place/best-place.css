@@ -34,8 +34,8 @@
         grid-template-columns: 1fr;
         grid-template-areas: "title" "url" "img" "paragraphs";
         column-gap: 0;
-        row-gap: 50px;
-        margin-bottom: 50px;
+        row-gap: 32px;
+        margin-bottom: 66px;
     }
     .best-place:first-child {
         row-gap: 32px;
