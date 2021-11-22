@@ -15,17 +15,16 @@
 
 @media screen and (max-width: 768px) {
     .description__banner {
-        max-height: 480px;
-        max-width: 99%;
+        max-width: 100%;
         margin: 0px;
     }
 }
-
+/*
 @media screen and (max-width: 650px) {
     .description__banner {
         max-height: 350px;
     }
-}
+}*/
 
 @media screen and (max-width: 574px) {
     .description__banner {
