@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 451px) {
     .description__title {
         line-height: 44px;
         font-size: 40px;
