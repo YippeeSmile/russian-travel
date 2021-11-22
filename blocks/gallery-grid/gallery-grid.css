@@ -6,6 +6,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
+    margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,6 +25,7 @@
         gap: 16px;
         max-width: 100%;
         padding: 0px 24px;
+        margin-bottom: 88px;
     }
 }
 
@@ -40,5 +42,6 @@
         grid-template-rows: repeat(12, 217px);
         gap: 12px;
         padding: 0px 16px;
+        margin-bottom: 64px;
     }
 }
