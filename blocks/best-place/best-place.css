@@ -34,11 +34,6 @@
         grid-template-columns: 1fr;
         grid-template-areas: "title" "url" "img" "paragraphs";
         column-gap: 0;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .best-place {
         row-gap: 32px;
     }
     .best-place:last-child {
