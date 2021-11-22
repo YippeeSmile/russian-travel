@@ -1,28 +1,3 @@
 .description {
-    calc(100vw - 2 * 280px);
+    max-width: 100vw;
 }
-/*
-@media screen and (max-width: 1024px) {
-    .description {
-        calc(100vw - 2 * 152px);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .description {
-        calc(100vw - 2 * 48px);
-    }
-}
-
-@media screen and (max-width: 685px) {
-    .description {
-        calc(100vw - 2 * 24px);
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .description {
-        calc(100vw - 2 * 16px);
-    }
-}
-*/
