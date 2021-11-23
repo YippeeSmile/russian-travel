@@ -26,7 +26,7 @@
 }
 
 .banner__image-link:hover:after {
-    background-color: 0.8;
+    background-color: rgba(42, 44, 47, 0,8);
 }
 
 @media screen and (max-width: 1024px) {
