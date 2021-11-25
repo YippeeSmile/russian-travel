@@ -3,10 +3,11 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
+    padding-bottom: 25px;
 }
 
 .best-place__paragraph:last-child {
-    padding-top: 25px;
+    padding-bottom: 0px;
 }
 
 @media screen and (max-width: 768px) {
