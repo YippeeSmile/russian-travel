@@ -4,12 +4,6 @@
 
 [https://yippeesmile.github.io/russian-travel/index.html](https://yippeesmile.github.io/russian-travel/index.html "Ссылка на проект")
 
-### Что исправить
-
-Пытаюсь убрать смещение вниз на разрешении 320px http://joxi.ru/8230G8ZUa16ONA оно из-за второго параграфа, где впервые встречается символ lsep http://joxi.ru/Y2Ln1DVHManDQr, все отступы сверила, но нужного переноса строки не могу добиться.*
-
-**спасибо!**
-
 
 **Что получилось**
 * flex верстка
