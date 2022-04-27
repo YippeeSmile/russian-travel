@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
 
-**ССылка на проект**
+**Ссылка на проект**
 
 [https://yippeesmile.github.io/russian-travel/index.html](https://yippeesmile.github.io/russian-travel/index.html "Ссылка на проект")
 
