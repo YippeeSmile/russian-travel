@@ -5,8 +5,8 @@
 [https://yippeesmile.github.io/russian-travel/index.html](https://yippeesmile.github.io/russian-travel/index.html "Ссылка на проект")
 
 
-**Что получилось**
-* flex верстка
-* grid верстка
+**Что использовала**
+* Flex
+* Grid
 * оптимизация под разные разрешения экрана
 
